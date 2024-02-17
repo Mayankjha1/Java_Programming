@@ -12,6 +12,8 @@ public class Taking_input_Values {
         System.out.println("Enter your Salary !!!");
         int salary = sc.nextInt();
 
+        sc.close();
+
         System.out.println("Your Name is : " + Name +"\n" + "Your age is : "+ age +"\n"+ "Your Salary is : "+ salary);
 
 
