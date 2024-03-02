@@ -17,4 +17,22 @@ public class Check_Number {
         }
         sc.close();
     }
+
+    public static class Swap_Values {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter the first Number !!!");
+            int num = sc.nextInt();
+            System.out.println("Enter the Second Number !!!");
+            int num2 = sc.nextInt();
+
+            int temp = num;
+            num=num2;
+            num2 = temp;
+
+            System.out.println(num);
+            System.out.println(num2);
+
+        }
+    }
 }
